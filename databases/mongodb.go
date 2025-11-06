@@ -3,7 +3,7 @@ package databases
 import (
 	"context"
 
-	"accounts.workflecks.com/constants"
+	"YOUR_PROJECT_NAME/constants"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

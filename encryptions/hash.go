@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"accounts.workflecks.com/constants"
+	"YOUR_PROJECT_NAME/constants"
 )
 
 // Hash hashes a string using the specified algorithm

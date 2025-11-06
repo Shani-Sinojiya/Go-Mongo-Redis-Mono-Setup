@@ -1,7 +1,7 @@
 // Package encryptions provides cryptographic functions for encryption, decryption, and hashing operations.
 package encryptions
 
-import "accounts.workflecks.com/constants"
+import "YOUR_PROJECT_NAME/constants"
 
 func HashPassword(text string) string {
 	// Add initial salt mixing

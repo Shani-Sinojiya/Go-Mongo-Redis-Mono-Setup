@@ -1,4 +1,4 @@
-module accounts.workflecks.com
+module YOUR_PROJECT_NAME
 
 go 1.25.3
 

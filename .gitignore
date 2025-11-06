@@ -1,20 +1,75 @@
-temp
-vendor
-.vscode
-
+# Binaries for programs and plugins
 *.exe
 *.exe~
-*.log
-*.out
-*.tmp
+*.dll
+*.so
+*.dylib
 *.bat
-
 *.cmd
+bin/
+dist/
+accounts-service
+accounts
 
-uploads
-!uploads/.gitkeep
-.vscode
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+coverage.html
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Configuration files with sensitive data
 config.yml
 
-*.*db
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database files
+*.db
 *.sqlite
+*.sqlite3
+*.*db
+
+# Uploads directory
+uploads/
+!uploads/.gitkeep
+
+# Air - Live reload for Go
+tmp/
+.air.toml
+
+# Debug files
+__debug_bin
+
+# OS specific files
+Thumbs.db
+.DS_Store
+
+# Redis dump
+dump.rdb

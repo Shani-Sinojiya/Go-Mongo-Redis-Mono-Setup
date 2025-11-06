@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"accounts.workflecks.com/constants"
+	"YOUR_PROJECT_NAME/constants"
 )
 
 // Fixed IV for encryption/decryption (16 bytes)

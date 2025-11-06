@@ -1,6 +1,6 @@
 package constants
 
-import "accounts.workflecks.com/config"
+import "YOUR_PROJECT_NAME/config"
 
 var (
 	// mongodb

@@ -3,7 +3,7 @@ package databases
 import (
 	"context"
 
-	"accounts.workflecks.com/constants"
+	"YOUR_PROJECT_NAME/constants"
 	"github.com/go-redis/redis/v8"
 )
 

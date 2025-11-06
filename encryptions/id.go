@@ -1,11 +1,12 @@
 package encryptions
 
-import "accounts.workflecks.com/constants"
+import "YOUR_PROJECT_NAME/constants"
 
 func EncryptID(text string) (string, error) {
 	return EncryptAES(text, constants.EncryptionAESIDKey)
 }
 
+// DecryptID decrypts an encrypted ID string using AES encryption
 func DecryptID(text string) (string, error) {
 	return DecryptAES(text, constants.EncryptionAESIDKey)
 }

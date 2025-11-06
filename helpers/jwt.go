@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"accounts.workflecks.com/constants"
+	"YOUR_PROJECT_NAME/constants"
 	"github.com/dgrijalva/jwt-go"
 )
 

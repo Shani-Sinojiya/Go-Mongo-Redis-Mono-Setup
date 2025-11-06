@@ -1,3 +1,4 @@
+// Package config provides configuration management for the application using Viper.
 package config
 
 import "github.com/spf13/viper"
