@@ -1,4 +1,4 @@
-# WorkFlecks Accounts Service
+# GO Mongo Redis Mono Setup
 
 [![Go Version](https://img.shields.io/badge/Go-1.25.3-blue.svg)](https://golang.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -271,7 +271,7 @@ encryption:
 databases:
   mongodb:
     uri: "mongodb://localhost:27017"
-    db: "workflecks"
+    db: "go-mongo-redis-mono"
 ```
 
 **Redis:**
@@ -283,7 +283,7 @@ databases:
     port: "6379"
     password: ""
     db: 0
-    prefix: "workflecks:"
+    prefix: "go-mongo-redis-mono:"
 ```
 
 ## 📖 Usage
@@ -352,7 +352,7 @@ import (
 
 // MongoDB
 mongoClient := databases.GetMongoClient()
-collection := mongoClient.Database("workflecks").Collection("users")
+collection := mongoClient.Database("go-mongo-redis-mono").Collection("users")
 
 // Redis
 redisClient := databases.GetRedisClient()
@@ -532,4 +532,4 @@ If you have any questions or need help, please:
 
 ---
 
-Made with ❤️ by WorkFlecks Team
+Made with ❤️ by Shani Sinojiya
